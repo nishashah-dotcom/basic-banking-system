@@ -14,4 +14,4 @@ COPY . $HOME/node_docker
 
 EXPOSE 3000
 
-ENTRYPOINT ["npm", "start"]
+CMD ["npm", "start"]
